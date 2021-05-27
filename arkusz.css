@@ -1,0 +1,133 @@
+body
+{
+	background-attachment: fixed;
+	background-image: url("zdjecie2.jpg");
+	background-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+#container
+{
+	background-color: white;
+	width: 800px;
+	height: 1150px;
+	margin: auto;
+	padding: 50px;
+	margin-top: 100px;
+
+	-webkit-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 30px 5px rgba(0,0,0,0.5);
+	background-image: url("debut_light.png");
+	
+}
+.input
+{
+	width: 500px;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+	font-family: 'Jura', sans-serif;
+	font-family: 'Poiret One', cursive;
+	
+}
+
+.text
+{
+	padding: 20px;
+	font-size: 25px;
+	
+}
+input[type=text],
+input[type=number]
+{
+	width: 300px;
+	background-color: #efefef;
+	color: #666666;
+	border: 3px solid #ddd;
+	border-radius: 5pxpx;
+	font-size: 20px;
+	padding: 10px;
+	text-align:center;
+}
+
+input[type=button]
+{
+	width: 300px;
+	background-color: #36b03c;
+	font-size: 25px;
+	color: white;
+	padding: 15px 10px;
+	border: none;
+	border-radius:10px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+	
+}
+
+input[type=button]:hover
+{
+	background-color: #27b93d;
+	
+}
+
+#sport
+{
+	margin: auto;
+	width: 500px;
+	background-color: #efefef;
+	color: #666666;
+	border: 3px solid #ddd;
+	border-radius: 5pxpx;
+	font-size: 20px;
+	padding: 10px;
+	text-align:center;	
+	text-align-last:center;
+}
+
+#sex
+{
+	margin: auto;
+	width: 325px;
+	background-color: #efefef;
+	color: #666666;
+	border: 3px solid #ddd;
+	border-radius: 5pxpx;
+	font-size: 20px;
+	padding: 10px;
+	text-align:center;	
+	text-align-last:center;
+}
+#kcal
+{
+	margin: auto;
+
+	font-size: 30px;
+	padding: 20px;
+	text-align: center;
+
+}
+#final
+{
+	font-size: 20px;
+	text-align: center;
+	padding: 30px;
+	
+	
+}
+
+#goal
+{
+	margin: auto;
+	width: 500px;
+	background-color: #efefef;
+	color: #666666;
+	border: 3px solid #ddd;
+	border-radius: 5pxpx;
+	font-size: 20px;
+	padding: 10px;
+	text-align:center;	
+	text-align-last:center;	
+}

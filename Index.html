@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+	<head>
+	
+		<meta charset="utf-8">
+		<title>Kalkulator Kalorii</title>
+		<meta name="description" content="Prosty kalkulator obliczający dzienne zapotrzebowanie kaloryczne twojego organizmu">
+		<meta name="keywords" content="kalorie, prawidłowa waga, masa ciała, odchudzanie, dieta, kalkulator, bmi">
+		
+		<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+    
+		<link rel="stylesheet" href="arkusz.css">
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+		
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Jura&family=Poiret+One&display=swap" rel="stylesheet">
+
+		<script src="skrypt.js"></script>
+    
+	</head>
+
+	<body bgcolor = "#C0C0C0">
+	
+		<div id="container"><!--
+			<div id = "description">
+			lorem ipsum
+			</div> -->
+			
+			<div class = "input">
+				<div class="text">Twój wzrost w cm</div>
+			<input type="number" id="height"></input>
+			</div>
+			
+			<div class = "input">
+				<div class="text">Twoja waga w kg</div>
+			<input type="number" id="weight"></input>
+			</div>
+			
+			<div class = "input">
+				<div class="text">Twój wiek w latach</div>
+			<input type="number" id="age"></input>
+			</div>
+			
+			<div class = "input">
+				<div class="text">Płeć</div>
+				<select id="sex">
+					<option value="female">Kobieta</option>
+					<option value="male">Mężczyzna</option>
+				</select>
+			</div>
+			
+			<div class = "input">
+				<div class="text">Aktywność fizyczna</div>
+				<select id="sport">
+					<option value="0">Brak aktywności fizycznej</option>
+					<option value="1">1 treningów tygodniowo, praca siedząca</option>
+					<option value="2">2 treningi tygodniowo, średnia trudność</option>
+					<option value="3">ciężki trening kilka razy w tygodniu</option>
+					<option value="4">ponad 4 intensywne treningi tygodniowo, praca fizyczna</option>
+				</select>
+			</div>
+			
+			<div class = "input">
+				<div class="text">Jaki jest twój cel?</div>
+				<select id="goal">
+					<option value="0">Chcę utrzymać wagę</option>
+					<option value="1">Chcę schudnąć</option>
+					<option value="2">Chcę przytyć</option>
+				</select>
+			</div>
+			
+			
+			
+			<div class = "input">
+			<input type="button" value="Oblicz" onclick="kliknij()"/>
+			</div>
+			
+			<div id="final"></div>
+			
+			<div id="kcal"></div>
+			
+		</div>
+
+	</body>
+	
+</html>
